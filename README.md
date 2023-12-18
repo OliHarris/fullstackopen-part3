@@ -19,6 +19,10 @@ Will perform a usual installation of any dependencies.
 
 Will perform a usual launch of the dev environment.
 
+### `npm run build`
+
+Will perform a usual build of minified files ready to be deployed.
+
 ## Available Scripts 2
 
 In each root 'rest-api' directory you can run:
@@ -34,6 +38,8 @@ Will perform a usual launch of the Node / Express environment.
 ## Note 1:
 
 Each root 'client' directory was initially copied over from my work for part2 [here](https://github.com/OliHarris/fullstackopen-part2).
+
+You can run 'npm run build'; the generated 'dist' folder then you can add to the 'rest-api' directory.
 
 ## NOTE 2:
 
