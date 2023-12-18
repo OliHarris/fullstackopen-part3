@@ -4,6 +4,12 @@ const app = express();
 // express json-parser
 app.use(express.json());
 
+const cors = require("cors");
+app.use(cors());
+
+// express show static content
+app.use(express.static("dist"));
+
 // morgan logger
 app.use(
   // app.use(morgan("tiny"));
@@ -98,7 +104,7 @@ app.delete("/api/persons/:id", (request, response) => {
   response.status(204).end();
 });
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
