@@ -7,6 +7,9 @@ app.use(express.json());
 const cors = require("cors");
 app.use(cors());
 
+// express show static content
+app.use(express.static("dist"));
+
 // custom requestLogger
 const requestLogger = (request, response, next) => {
   console.log("Method:", request.method);
