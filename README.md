@@ -35,14 +35,8 @@ Will perform a usual installation of any dependencies.
 
 Will perform a usual launch of the Node / Express environment.
 
-## Note 1:
+## Note:
 
 Each root 'client' directory was initially copied over from my work for part2 [here](https://github.com/OliHarris/fullstackopen-part2).
 
 You can run 'npm run build'; the generated 'dist' folder then you can add to the 'rest-api' directory.
-
-## NOTE 2:
-
-As this is a Vite app, I hosted it on GitHub pages using this guide:
-
-https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3
